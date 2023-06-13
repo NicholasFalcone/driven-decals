@@ -8,7 +8,7 @@ namespace SamDriver.Decal
     [CanEditMultipleObjects]
     public class DecalAssetInspector : Editor
     {
-        const string editorResourcesPath = "Packages/com.samdriver.driven-decals/Editor/Resources/";
+        const string editorResourcesPath = "Packages/com.mixedbag.driven-decals/Editor/Resources/";
         static Material FetchEditorMaterial(string materialName)
         {
             var path = Path.Combine(editorResourcesPath, $"Materials/{materialName}.mat");

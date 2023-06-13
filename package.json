@@ -1,7 +1,7 @@
 {
     "name": "com.mixedbag.driven-decals",
     "version": "0.8.0",
-    "displayName": "Driven Decals",
+    "displayName": "Driven Decals - Mixedbag",
     "description": "A projected-mesh PBR decal system for the Universal Render Pipeline.",
     "unity": "2019.3",
     "dependencies": {
