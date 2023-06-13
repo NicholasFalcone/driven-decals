@@ -3,7 +3,7 @@
     "version": "0.8.0",
     "displayName": "Driven Decals - Mixedbag Fork",
     "description": "A projected-mesh PBR decal system for the Universal Render Pipeline.",
-    "unity": "2022.2.0",
+    "unity": "2019.3",
     "dependencies": {
         "com.unity.render-pipelines.universal": "7.3.1"
     },
