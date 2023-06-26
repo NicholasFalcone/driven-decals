@@ -403,6 +403,7 @@ namespace SamDriver.Decal
                     #endif
 
                     //NOTE: if you want to exclude any other objects from "all static objects" here's the place to do it
+                    if(meshFilter.sharedMesh == null) continue;
 
                     var bounds = meshFilter.sharedMesh.bounds;
                     Vector3 meshCenter = meshFilter.transform.TransformPoint(bounds.center);
